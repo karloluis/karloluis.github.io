@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Karlo Martinez: {{page.title}}</title>
-
-  </head>
-  <body>
+  {% include head.html %}
+  <body class="container">
     {% include nav.html %}
 
     {{content}}
 
     {% include footer.html %}
+    {% scripts.html %}
   </body>
 </html>
