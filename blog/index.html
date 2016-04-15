@@ -2,14 +2,10 @@
 layout: default
 title: Karlo Martinez's Blog
 description:
-home: passive
-about: passive
 blog: active
-contact: passive
 ---
 <h1>{{ page.title }}</h1>
-<ul class="posts">
-
+<ul class="">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
   {% endfor %}
