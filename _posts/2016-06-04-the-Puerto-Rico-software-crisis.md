@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: " Draft The Puerto Rico software crisis"
-date: 2016-06-xx
+date: 2016-06-06
 ---
 
 # Intro
