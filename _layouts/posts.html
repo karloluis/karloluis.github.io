@@ -3,13 +3,12 @@ layout: default
 blog: active
 ---
 
-
 <h1 class="title">{{ page.title }}</h1>
-
-<h2 class="date"><info datetime="{{ page.date }}">
+<h4 class="date"><info datetime="{{ page.date }}">
   {{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
-</info></h2>
+</info></h4>
+
 			<!-- Post content -->
-<div class="notebody col-med-9">
+<div class="notebody col-med-8 col-med-offset-1">
   {{ content }}
 </div>
