@@ -4,7 +4,7 @@ title: "Working with Github Pages"
 date: 2016-04-13
 ---
 
-# My Github Pages
+## My Github Pages
 
 Finally, having a personal page makes sense,
  now that I have my degree I feel accomplished and wanting to
