@@ -1,10 +1,15 @@
+---
+---
+
+@import 'pallete'
+
 body {
     font-family: 'Nunito', sans-serif;
 }
 
 .bg-dark {
-  color: #030303;
-  background-color: #32331c;
+  color: $lightfont;
+  background-color: $color1;
 }
 
 .nav {
