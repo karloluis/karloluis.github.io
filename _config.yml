@@ -1,4 +1,4 @@
 name: Karlo Martinez, software thoughts.
 markdown: kramdown
 
-permalink: /blog/:title
+permalink: /blog/:year/:month/:day/:title

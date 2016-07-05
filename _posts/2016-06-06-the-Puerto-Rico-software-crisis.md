@@ -1,7 +1,8 @@
 ---
 layout: posts
-title: " Draft The Puerto Rico software crisis"
+title: "Draft The Puerto Rico software crisis"
 date: 2016-06-06
+published: false
 ---
 
 # Intro
@@ -36,4 +37,4 @@ Javascript is everywhere.
   - react
   - meteor
 
-** Avoid talking about leaving or people that have left **
+^Avoid talking about leaving or people that have left^

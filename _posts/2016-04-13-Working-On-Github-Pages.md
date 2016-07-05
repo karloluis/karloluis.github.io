@@ -2,6 +2,7 @@
 layout: posts
 title: "Working with Github Pages"
 date: 2016-04-13
+published: true
 ---
 
 ## My Github Pages
