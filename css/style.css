@@ -3,8 +3,8 @@ body {
 }
 
 .bg-dark {
-  color: $lightfont;
-  background-color: $color1;
+  color: #030303;
+  background-color: #32331c;
 }
 
 .nav {
