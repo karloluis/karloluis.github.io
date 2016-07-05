@@ -5,13 +5,18 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  background-color: $color3;
+  background-color: $blend;
 }
 
+#post-header {
+  .date{
+    padding-left: 20px;
+  }
+}
 #post-content{
   margin-top: 15px;
   p {
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify;
   }
 }
