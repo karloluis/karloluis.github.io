@@ -16,7 +16,7 @@ body {
 #post-content{
   margin-top: 15px;
   p {
-    font-size: 16px;
+    font-size: 1.4em;
     text-align: justify;
   }
 }
@@ -26,15 +26,21 @@ body {
   background-color: $color1;
 }
 
-.navbar {
+header {
+  height: 87px;
+  width: 100%;
+
   color: $lightfont;
   background-color: $color4;
 
-  .active {
-    background-color: $color5;
-  }
+  .navbar {
+    .active {
+      background-color: $blend45;
+    }
 
-  a {
-    color: $darkfont;
+    a {
+      font-size: 1.3em;
+      color: $darkfont;
+    }
   }
 }
