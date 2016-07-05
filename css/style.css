@@ -3,5 +3,11 @@ body {
 }
 
 .bg-dark {
-  background-color: $color1
+  color: $lightfont;
+  background-color: $color1;
+}
+
+.nav {
+  color: $lightfont;
+  background-color: $color4;
 }
