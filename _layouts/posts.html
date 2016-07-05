@@ -3,7 +3,7 @@ layout: default
 blog: active
 ---
 
-<section class="container-fluid bg-dark">
+<section id="post-header" class="container-fluid bg-dark">
   <h1 class="title">{{ page.title }}</h1>
   <h6 class="date"><info datetime="{{ page.date }}">
     {{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
@@ -11,8 +11,8 @@ blog: active
 </section>
 
 			<!-- Post content -->
-<section class="container">
-  <div class="col-md-8 col-md-offset-1">
+<section id= "post-content" class="container">
+  <div class="col-md-10 col-md-offset-1">
     {{ content }}
   </div>
 </section>
