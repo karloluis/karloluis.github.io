@@ -1,4 +1,18 @@
 ---
 ---
 
-@import "/assets/css/palette";
+@import "palette";
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.bg-dark {
+  color: $lightfont;
+  background-color: $color1;
+}
+
+.nav {
+  color: $lightfont;
+  background-color: $color4;
+}
