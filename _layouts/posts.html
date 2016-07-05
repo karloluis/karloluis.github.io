@@ -3,18 +3,19 @@ layout: default
 blog: active
 ---
 
-<h1 class="title">{{ page.title }}</h1>
-<h4 class="date"><info datetime="{{ page.date }}">
-  {{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
-</info></h4>
+
+<section class="bg-dark">
+  <h1 class="title">{{ page.title }}</h1>
+  <h6 class="date"><info datetime="{{ page.date }}">
+    {{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
+  </info></h6>
+</section>
 
 			<!-- Post content -->
-<div class="col-med-2 col-med-offset-4">
-  <p>
-    hold
-  </p>
-  {{ content }}
-  <p>
-    data
-  </p>
-</div>
+<section>
+  <div class="container">
+    <div class="col-md-6 col-md-offset-3">
+      {{ content }}
+    </div>
+  </div>
+</section>
