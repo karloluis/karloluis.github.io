@@ -5,6 +5,7 @@
 
 body {
   font-family: 'Nunito', sans-serif;
+  background-color: $color3;
 }
 
 .bg-dark {
@@ -12,7 +13,11 @@ body {
   background-color: $color1;
 }
 
-.nav {
+.navbar {
   color: $lightfont;
   background-color: $color4;
+
+  .active {
+    background-color: $color5;
+  }
 }
